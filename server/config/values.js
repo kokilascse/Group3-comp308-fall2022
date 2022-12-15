@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 const port = process.env.PORT || 3001;
 
-const db = process.env.DB || "mongodb://127.0.0.1/group3-comp308-project";
+const db = process.env.DB || "mongodb+srv://admin:admin123@cluster1.dtodmta.mongodb.net/?retryWrites=true&w=majority";
 
 const jwtSecret = process.env.JWT_SECRET || "eXaMpLeSeCrEt";
 
